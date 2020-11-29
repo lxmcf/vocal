@@ -1,10 +1,14 @@
-# Vocal Syntax
+<h1 align="center">Vocal Syntax</h1>
+
+<p align="center">
+    <a href="#styling">Styling</a> |
+    <a href="#naming-conventions">Naming Conventions</a> |
+    <a href="#coding-conventions--rules">Coding Conventions & Rules</a>
+</p>
 
 Vocal (Vala C like) syntax is a syntax and coding style designed for Vala styled towards stand alone game development and prototype code.
 
 A lot of the current syntax is borrowed from the [elementary OS](https://docs.elementary.io/develop/writing-apps/code-style) style guide.
-
----
 
 ## Styling
 
@@ -174,9 +178,7 @@ public static int main (string[] args) {
 
 ```
 
----
-
-## Naming
+## Naming Conventions
 
 ---
 
@@ -281,7 +283,7 @@ public enum OperatingSystem {
 
 ### Struct and Class
 
-As outlined in [Rules]("#"), you should use never mix the use of class and struct and instead choose 1, however both will follow the same `CamalCase` naming convention:
+As outlined in [Coding Conventions]("#"), you should use never mix the use of class and struct and instead choose 1, however both will follow the same `CamalCase` naming convention:
 
 ```vala
 struct FooBar {
@@ -295,7 +297,7 @@ class LoremIpsum {
 
 ### Namespace
 
-As outlined in [Rules]("#"), you should be using 1 namespace at max; if any, however if you must use a namespace; it is to be using `CamalCase`:
+As outlined in [Coding Conventions]("#"), you should be using 1 namespace at max; if any, however if you must use a namespace; it is to be using `CamalCase`:
 
 ```vala
 namespace FooBar {
@@ -305,6 +307,6 @@ namespace FooBar {
 }
 ```
 
-## Rules
+## Coding Conventions & Rules
 
 [Coming soon]
