@@ -1,4 +1,4 @@
-<h1 align="center">Vocal Syntax</h1>
+<h1 align="center">Vocal Syntax (Name pending)</h1>
 
 <p align="center">
     <a href="#styling">Styling</a> |
@@ -6,7 +6,7 @@
     <a href="#coding-conventions--rules">Coding Conventions & Rules</a>
 </p>
 
-Vocal (Vala C like) syntax is a syntax and coding style designed for Vala styled towards stand alone game development and prototype code.
+Vocal (Vala C like) Syntax is a syntax and coding style designed for Vala styled towards stand alone game development and prototype code.
 
 A lot of the current syntax is borrowed from the [elementary OS](https://docs.elementary.io/develop/writing-apps/code-style) style guide.
 
@@ -82,7 +82,7 @@ List<string> foo = new List<string> ();
 
 ### Indentation
 
-Vocal Syntax should use either 1 tab or 4 spaces (Mixing these is a forbidden form of devil worship), to keep this consistent; it is recommend to use [EditorConfig](https://editorconfig.org/) if supported by your editor.
+Vocal Syntax (Name Pending) should use either 1 tab or 4 spaces (Mixing these is a forbidden form of devil worship), to keep this consistent; it is recommend to use [EditorConfig](https://editorconfig.org/) if supported by your editor.
 
 Each new block of code within a set of braces should increment the current indentation by 1 unit (1 tab or 4 spaces).
 
@@ -220,7 +220,7 @@ public static int main (string[] args) {
 }
 ```
 
-As Vocal Syntax recommends using Vala's pointer syntax, if you are not using a standard data type for your variable (`string`, `int`, `float`, ETC), you should define your variable with it's scope prefix (`g_`, `m_` or `p_`) followed by a lower case `p` for pointer, the following example assumes you are using SDL2:
+As Vocal Syntax (Name Pending) recommends using Vala's pointer syntax, if you are not using a standard data type for your variable (`string`, `int`, `float`, ETC), you should define your variable with it's scope prefix (`g_`, `m_` or `p_`) followed by a lower case `p` for pointer, the following example assumes you are using SDL2:
 
 ```vala
 // Global
